@@ -1,9 +1,9 @@
 package main
 
 import (
-  "kipfs/misc"
-  "kipfs/repo"
-  "kipfs/testing"
+  "github.com/danbrough/repotest/misc"
+  "github.com/danbrough/repotest/repo"
+  "github.com/danbrough/repotest/testing"
   "os"
   "path/filepath"
 )

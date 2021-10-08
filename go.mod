@@ -1,4 +1,4 @@
-module kipfs
+module github.com/danbrough/repotest
 
 go 1.16
 

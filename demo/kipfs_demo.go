@@ -2,8 +2,8 @@ package main
 
 import (
   "flag"
-  "kipfs/core"
-  "kipfs/testing"
+  "github.com/danbrough/repotest/core"
+  "github.com/danbrough/repotest/testing"
   "os"
   "path/filepath"
 )

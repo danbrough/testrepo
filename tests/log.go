@@ -1,8 +1,8 @@
 package main
 
 import (
-  "kipfs/misc"
-  "kipfs/testing"
+  "github.com/danbrough/repotest/misc"
+  "github.com/danbrough/repotest/testing"
 )
 
 func logTest(l misc.Log) {

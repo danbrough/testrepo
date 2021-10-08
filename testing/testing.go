@@ -3,7 +3,7 @@ package testing
 import (
   "bytes"
   "fmt"
-  . "kipfs/misc"
+  . "github.com/danbrough/repotest/misc"
 )
 
 type NoopLogSink struct {

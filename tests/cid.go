@@ -1,8 +1,8 @@
 package main
 
 import (
-  "kipfs/cids"
-  "kipfs/testing"
+  "github.com/danbrough/repotest/cids"
+  "github.com/danbrough/repotest/testing"
 )
 
 func main() {
