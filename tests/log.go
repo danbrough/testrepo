@@ -1,8 +1,8 @@
 package main
 
 import (
-  "github.com/danbrough/repotest/misc"
-  "github.com/danbrough/repotest/testing"
+  "github.com/danbrough/testrepo/misc"
+  "github.com/danbrough/testrepo/testing"
 )
 
 func logTest(l misc.Log) {

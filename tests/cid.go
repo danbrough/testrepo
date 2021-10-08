@@ -1,8 +1,8 @@
 package main
 
 import (
-  "github.com/danbrough/repotest/cids"
-  "github.com/danbrough/repotest/testing"
+  "github.com/danbrough/testrepo/cids"
+  "github.com/danbrough/testrepo/testing"
 )
 
 func main() {

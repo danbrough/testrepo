@@ -2,8 +2,8 @@ package main
 
 import (
   "flag"
-  "github.com/danbrough/repotest/core"
-  "github.com/danbrough/repotest/testing"
+  "github.com/danbrough/testrepo/core"
+  "github.com/danbrough/testrepo/testing"
   "os"
   "path/filepath"
 )

@@ -1,9 +1,9 @@
 package main
 
 import (
-  "github.com/danbrough/repotest/misc"
-  "github.com/danbrough/repotest/repo"
-  "github.com/danbrough/repotest/testing"
+  "github.com/danbrough/testrepo/misc"
+  "github.com/danbrough/testrepo/repo"
+  "github.com/danbrough/testrepo/testing"
   "os"
   "path/filepath"
 )

@@ -9,12 +9,12 @@ package core
 
 import (
   "context"
-  "github.com/danbrough/repotest/testing"
+  "github.com/danbrough/testrepo/testing"
   "log"
   "net"
   "sync"
 
-  ipfs_mobile "github.com/danbrough/repotest/node"
+  ipfs_mobile "github.com/danbrough/testrepo/node"
 
   ma "github.com/multiformats/go-multiaddr"
   manet "github.com/multiformats/go-multiaddr/net"

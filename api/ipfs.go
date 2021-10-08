@@ -1,8 +1,8 @@
 package api
 
 import (
-  "github.com/danbrough/repotest/ipfs"
-  "github.com/danbrough/repotest/misc"
+  "github.com/danbrough/testrepo/ipfs"
+  "github.com/danbrough/testrepo/misc"
 )
 
 func StartIPFS(sink misc.LogSink) {

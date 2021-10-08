@@ -1,4 +1,4 @@
-module github.com/danbrough/repotest
+module github.com/danbrough/testrepo
 
 go 1.16
 
