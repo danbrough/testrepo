@@ -43,12 +43,17 @@ func initRepo() {
   log.Trace("initialized repo at %s", repoPath)
 }
 
+func pubsub(subscribe string) {
+  log.Info("subscribing to %s", subscribe)
+}
+
 func main() {
   var offline bool
   flag.BoolVar(&offline, "offline", false, "run node offline")
   var dagToGet string
   flag.StringVar(&dagToGet, "dag", "", "dag to retrieve")
-
+  var subscribe string
+  flag.StringVar(&subscribe, "subscribe", "", "subscribe to this topic")
   flag.Parse()
   log.Info("running demo.. offline: %t", offline)
 
@@ -88,6 +93,12 @@ func main() {
 
   shell := core.NewTCPShell(port)
   log.Trace("created shell %s", shell)
+
+  log.Error("subscribe: %s", subscribe)
+  if subscribe != "" {
+    pubsub(subscribe)
+    return
+  }
 
   var req *core.RequestBuilder
   var resp []byte
